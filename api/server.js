@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-const resourcesRouter = require('./resources/resources-router')
+const resourcesRouter = require('../resources/resources-router')
 
 server.use(express.json());
 
